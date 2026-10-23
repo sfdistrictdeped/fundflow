@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "FundFlow \u2014 Liquidation Made Easier",
+  "short_name": "FundFlow",
+  "description": "Purchase and Travel Liquidation document generator",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f8f5",
+  "theme_color": "#07583f",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./FundFlow_App_Icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
