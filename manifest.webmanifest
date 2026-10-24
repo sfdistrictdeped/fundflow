@@ -1,6 +1,6 @@
 {
   "id": "./",
-  "name": "FundFlow \u2014 Liquidation Made Easier",
+  "name": "FundFlow — Liquidation Made Easier",
   "short_name": "FundFlow",
   "description": "Purchase and Travel Liquidation document generator",
   "start_url": "./index.html",
@@ -11,8 +11,14 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "./FundFlow_App_Icon.png",
-      "sizes": "1024x1024",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }

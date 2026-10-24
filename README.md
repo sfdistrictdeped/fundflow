@@ -18,3 +18,7 @@
 - Service workers require HTTPS (GitHub Pages provides HTTPS) or localhost.
 - Offline availability begins after the app has been opened successfully online at least once. Browser storage clearing, private browsing restrictions, or device policies can remove/limit the cache.
 - This is a static GitHub Pages package; no server-side backend is required for the bundled client-side workflows.
+
+
+## App icon and favicon (Beta 0.6.0 patch)
+The package includes `favicon.ico`, `favicon.png`, `apple-touch-icon.png`, `icon-192.png`, and `icon-512.png`. The manifest references the 192px and 512px icons, and the service worker caches these assets. After replacing the files on GitHub Pages, open the app online once to refresh the cache. Windows may retain an installed app icon; if so, uninstall and reinstall the PWA.

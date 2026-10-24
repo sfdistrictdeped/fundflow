@@ -1,6 +1,7 @@
-const CACHE_NAME = 'fundflow-beta-0.6.0';
+const CACHE_NAME = 'fundflow-beta-0.6.0-icons-fix1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './FundFlow_App_Icon.png',
+  './favicon.ico', './favicon.png', './apple-touch-icon.png', './icon-192.png', './icon-512.png',
   './MOOE FOR PURCHASE TEMPLATE BLANK(4).xlsx',
   './MOOE FOR TRAVEL TEMPLATE BLANK(5).xlsx'
 ];
